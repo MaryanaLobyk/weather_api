@@ -1,0 +1,16 @@
+.container form {
+    margin-top: 3px;
+}
+
+form input[name='city'],
+form input[name='country']{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 0;
+}
+
+form input:focus{
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
